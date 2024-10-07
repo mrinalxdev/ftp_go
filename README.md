@@ -1,17 +1,21 @@
 # What the heck is a FTP server
 
-> I built it from scratch let me tell you !!
-
 ## Table of Contents 
 1. [What it does ??](#what-it-does)
-
-
-
-
+2. [Installation](#installation)
+3. [Execution](#execution)
+4. [Usage](#usage)
+5. [Commands](#commands)
 
 ## What It does
+> I built it from scratch let me tell you !!
 
-This FTP server is a basic implementation of the File Transfer Protocol (FTP) in golang from scratch. It allows users to upload, download, and manage files on the server
+File Transfer Protocol (FTP) servers are essential tools for transferring files over the internet. They operate on a client-server model, allowing users to upload and download files between their local devices and remote servers, facilitates file transfer across a TCP/IP network. It uses the File Transfer Protocol to establish secure connections between client devices and the server, enabling efficient data transmission. 
+
+Two Major functions include ->
+
+- Uploading file : Users can send files from their local devices to the server.
+- Downloading file : Users can retrieve files from the server to their local devices.
 
 ## Installation
 
@@ -46,4 +50,7 @@ The server supports the following FTP commands :
 ## Troubleshooting
 
 - Problems may occur in Mac for Connection refused: Check server status and port number
+
+
+Your valuable contributions are appreciated !!
 
